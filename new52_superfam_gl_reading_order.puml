@@ -1,0 +1,221 @@
+@startuml
+  skinparam ArrowHeadColor none
+  <style>
+    package {
+      BackgroundColor GhostWhite
+    }
+    
+    partition {
+      BackgroundColor Snow
+    }
+  </style>
+  
+  package Phase 1 {
+    :Supergirl vol 1;
+  }
+  
+  start
+  
+  package Phase 2 {
+    :Supergirl vol 2;
+  }
+  
+  start
+  
+  package Phase 3 {
+    :Supergirl vol 3 issue #13;
+    :Superman Hel On Earth;
+    :Supergirl vol 3 issues #18-20;
+  }
+  
+  start
+  
+  package Phase 4 {
+    split
+      partition Superman {
+        split
+          split
+            :Action Comics vol 4;
+          split again
+            :Supergirl vol 4 issues #21-24;
+          end split
+          :Superman: Krypton Returns;
+        split again
+          :Superman Unchained;
+        split again
+          :Batman/Superman vol 1;
+        end split
+      }
+    
+    split again
+      partition Green Lantern {
+        split
+          :Green Lantern: New Guardians vol 4 issues #21-22;
+        split again
+          :Green Lantern vol 4 issues #21-23;
+        split again
+          :Green Lantern Corps vol 4 issues #21-23;
+        split again
+          :Red Lanterns vol 4 issues #21-23;
+        end split
+        :Green Lantern Lights Out;
+        split
+          :Green Lantern: New Guardians vol 4 issues #25-27;
+        split again
+          :Green Lantern vol 4 issues #25-26;
+        split again
+          :Green Lantern Corps vol 4 issues #25-27, Annual 3;
+        split again
+          :Red Lanters vol 4 issues #25-26;
+        end split
+      }
+      
+    end split
+  }
+  
+  start
+  
+  package Phase 5 {
+    split
+      partition Green Lantern {
+        split
+          :Green Lantern vol 5 issue #27;
+          split
+            :Red Lanterns vol 5 issue #27;
+            :Supergirl vol 5 issues #26-30, RL #28-29, GL #28;
+            :Red Lanterns vol 5 issue #30;
+            :Supergirl vol 5 issue #31;
+            :Red Lanterns vol 5 issue #31;
+            :Supergirl vol 5 issues #32-33;
+            :Red Lanterns vol 5 issues #32-34, Annual 1;
+          split again
+            :Green Lanter Corps vol 5 issues #28-30;
+          end split
+          :Green Lantern vol 5 issues #31-34, GLC #31-33;
+          :Green Lantern Corps vol 5 issues #34, Annual 2;
+        split again
+          :Green Lantern: New Guardians vol 5;
+        split again
+          :Sinestro vol 1;
+        end split
+      }
+      
+    split again
+      partition Superman {
+        split
+          :Action Comics vol 5;
+        split again
+          :Batman/Superman vol 2;
+        split again
+          :Superman/Wonder Woman vol 1;
+        split again
+          :Justice League United vol 1;
+        end split
+      }
+    end split
+  }
+  
+  start
+  
+  package Phase 6 {
+    split
+      partition Green Lantern {
+        split
+          :Green Lantern/New Gods: Godhead;
+          split
+            :Green Lantern vol 6 issues #38-40, Annual 3;
+          split again
+            :Green Latnern Corps vol 6 issues #38-40;
+          split again
+            :Green Lantern: New Guardians vol 6 issues #38-40;
+          split again
+            :Red Lanterns vol 6 issues #38-40;
+          split again
+            :Sinestro vol 2 issues #6-11, Annual 1;
+          end split
+        split again
+          :Lobo vol 1;
+        end split
+      }
+      
+    split again
+      partition Superman {
+        split
+          split
+            :Action Comics vol 6 issue #30;
+          split again
+            :Batman/Superman vol 2 issue #10;
+          end split
+          :Superman: Doomed;
+          split
+            :Batman/Superman vol 2 issues #12-15;
+          split again
+            :Superman/Wonder Woman vol 2 Futures End issues;
+          split again
+            :Superman: The Men of Tomorrow;
+          end split
+        split again
+          :Justice League United vol 2;
+        end split
+      }
+    end split
+  }
+  
+  start
+  
+  package Phase 7 {
+    split
+      :Lobo vol 2;
+      :Sinestro vol 3;
+    split again
+      :Green Lantern vol 7;
+    split again
+      :Green Lantern Corp: The Lost Army;
+    split again
+      :Action Comics vol 7;
+    split again
+      :Batman/Superman vol 4;
+    split again
+      :Superman/Wonder Woman vol 3;
+    end split
+  }
+  
+  start
+  
+  package Phase 8 {
+    split
+      :Sinestro vol 4;
+    split again
+      :Green Lantern vol 8;
+    split again
+      :Green Lantern Corps: Edge Of Oblivion;
+    split again
+      :Action Comics vol 8;
+    split again
+      :Superman vol 1;
+    split again
+      :Batman/Superman vol 5;
+    split again
+      :Superman/Wonder Woman vol 4;
+    split again
+      :Lois And Clark;
+    end split
+  }
+  
+  start
+  
+  package Phase 9 {
+    split
+      :Superman vol 2 issues #45-47;
+      :Superman: Savage Dawn;
+    split again
+      :Batman/Superman vol 6 issues #28-30;
+    end split
+    :Superman: The Final Days Of Superman;
+    split
+      :Superman/Wonder Woman vol 5 issues #30-31;
+    split again
+      :Batman/Superman vol 6 issues #33-34;
+    end split
+  }
+@enduml
