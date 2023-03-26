@@ -1,0 +1,94 @@
+@startuml  
+    package Phase 1 {
+        :Action Comics by Grant Morrison Omnibus;
+        :Supergirl vol. 1;
+        :Supergirl vol. 2;
+        :Supergirl vol. 3 issue #13;
+        :Superman Hel On Earth;
+        :Supergirl vol. 3 issues #18-20;
+        split
+            :Action Comics vol. 4;
+        split again
+            :Supergirl vol. 4 issues #21-24;
+        end split
+            :Superman: Krypton Returns;
+    }
+  
+    start
+  
+    package Phase 2 {
+        split
+            :Superman Unchained;
+        split again
+            :Action Comics vol. 5;
+        split again
+            :Batman/Superman vol. 1;
+            :Batman/Superman vol. 2;
+        split again
+            :Superman/Wonder Woman vol. 1;
+        split again
+            :Supergirl vol. 5;
+            note right
+                Continuity note:
+                Guy Gardner took over the Red Lanterns.
+                Atrocitus is plotting revenge for this.
+            end note
+            :Justice League United vol. 1;
+            :Justice League United vol. 2;
+        end split
+    }
+  
+    start
+  
+    package Phase 3 {
+        split
+            :Action Comics vol. 6 issue #30;
+        split again
+            :Batman/Superman vol. 2 issue #10;
+        end split
+        :Superman: Doomed;
+        split
+            :Action Comics vol. 7;
+        split again
+            :Batman/Superman vol. 2 issues #12-15;
+            :Batman/Superman vol. 3;
+            :Batman/Superman vol. 4;
+        split again
+            :Supergirl vol. 6 issues #36-40;
+        split again
+            :Superman/Wonder Woman vol. 2 Futures End issues;
+            :Superman/Wonder Woman vol. 3;
+        split again
+            :Superman: The Men of Tomorrow;
+        end split
+    }
+  
+    start
+  
+    package Phase 4 {
+        :Superman vol. 1;
+        :Action Comics vol. 8 issues #41-44;
+        :Superman/Wonder Woman vol. 4;
+        :Batman/Superman vol. 5 issues #21-24;
+        :Action Comics vol. 8 issues 45-47;
+        :Batman/Superman vol. 5 issues #25-27;
+        :Lois And Clark;
+    }
+  
+    start
+  
+    package Phase 5 {
+        split
+            :Superman vol. 2 issues #45-47;
+            :Superman: Savage Dawn;
+        split again
+            :Batman/Superman vol. 6 issues #28-30;
+        end split
+        :Superman: The Final Days Of Superman;
+        split
+            :Superman/Wonder Woman vol. 5 issues #30-31;
+        split again
+            :Batman/Superman vol. 6 issues #33-34;
+        end split
+    }
+@enduml
