@@ -1,5 +1,5 @@
 @startuml  
-    package Phase 1 {
+    package H'el on Earth era {
         :Action Comics by Grant Morrison Omnibus;
         :Supergirl vol. 1;
         :Supergirl vol. 2;
@@ -16,7 +16,7 @@
   
     start
   
-    package Phase 2 {
+    package Red Daughter of Krypton era {
         split
             :Superman Unchained;
         split again
@@ -40,7 +40,7 @@
   
     start
   
-    package Phase 3 {
+    package Superman: Doomed era {
         split
             :Action Comics vol. 6 issue #30;
         split again
@@ -65,11 +65,15 @@
   
     start
   
-    package Phase 4 {
+    package Truth era {
         :Superman vol. 1;
         :Action Comics vol. 8 issues #41-44;
         :Superman/Wonder Woman vol. 4;
         :Batman/Superman vol. 5 issues #21-24;
+        note right
+            Continuity note:
+            Jim Gordan is Batman
+        end note
         :Action Comics vol. 8 issues 45-47;
         :Batman/Superman vol. 5 issues #25-27;
         :Lois And Clark;
@@ -77,18 +81,11 @@
   
     start
   
-    package Phase 5 {
-        split
-            :Superman vol. 2 issues #45-47;
-            :Superman: Savage Dawn;
-        split again
-            :Batman/Superman vol. 6 issues #28-30;
-        end split
+    package Final Days of Superman era {
+        :Superman vol. 2 issues #45-47;
+        :Superman: Savage Dawn;
+        :Batman/Superman vol. 6 issues #28-30;
         :Superman: The Final Days Of Superman;
-        split
-            :Superman/Wonder Woman vol. 5 issues #30-31;
-        split again
-            :Batman/Superman vol. 6 issues #33-34;
-        end split
+        :Batman/Superman vol. 6 issues #33-34;
     }
 @enduml

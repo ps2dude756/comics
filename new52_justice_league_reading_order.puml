@@ -1,0 +1,104 @@
+@startuml
+start
+
+package Trinit War era {
+    split
+        :Justice League #1-14;
+        :Aquaman by Geoff Johns Omnibus;
+        :Justice League Shazam stories;
+        :Justice League #18-20;
+        :Justice League of America #1-7;
+    split again
+        split
+            :Justice League Dark #1-6;
+        split again
+            :I, Vampire vol. 1;
+        end split
+        :I, Vampire vol. 2;
+        :I, Vampire vol. 3;
+        :Justice League Dark #9-21, 0, Annual 1;
+    split again
+        :Constantine vol. 1 issues #1-4;
+    split again
+        :Trinity of Sin: Phantom Stranger vol. 1;
+        :Trinity of Sin: Phantom Stranger vol. 2 issues #6-10;
+    end split
+    
+    :Trinity War;
+    note right: collected in Justice League Omnibus and Justice League Dark Omnibus
+
+    split
+        :Constantine vol. 1 issue #6;
+        :Constantine vol. 2 issues #7-8;
+    split again
+        :Trinity of Sin: Pandora vol. 1 issues #4-5;
+    split again
+        :Trinity of Sin: Phantom Stranger vol. 3 issues #12-13;
+    end split
+}
+
+start
+
+package Forever Evil era {
+    :**Forever Evil #1**;
+    note right: **bold** issues are in Justice League Omnibus vol. 2
+    :**Justice League #23.4**;
+    :**Justice League of America #7.4**;
+    :Justice League of America vol. 2 issue #8;
+    :**Forever Evil #2**;
+    :**Justice League #24**;
+    :**Forever Evil #3**;
+    :**Justice League #25-26**;
+    :**Forever Evil #4**;
+    :**Justice League #27**;
+    :Justice League of America vol. 2 issues #9-13;
+    :**Forever Evil #5**;
+    :**Justice League #28**;
+    :**Forever Evil #6**;
+    :Justice League ov America vol. 2 issue #14;
+    :**Justice League #29**;
+    :**Forever Evil #7**;
+
+    :Forever Evil: Rogue's Rebellion;
+    :Forever Evil: A.R.G.U.S.;
+    :Forever Evil: Arkham War;
+    :DC Villains Omnibus;
+
+    :Forever Evil: Blight;
+    note right: collected in Justice League Dark Omnibus
+}
+
+start
+
+package Injustice League era {
+    split
+        :Justice League issues #30-39, DC Sneak Peak #1;
+        :JLA issues #1-10;
+    split again
+        :Justice League Dark issues #30-40, annual 2
+    split again
+        :Constantine vol. 3;
+        :Constantine vol. 4;
+        note right
+            Continuity note:
+            Concurrent with Earth 2: World's End issues #7-10
+        end note
+    split again
+        split
+            :Trinity of Sin: Phantom Stranger vol. 3 issues #18-22;
+        split again
+            :Trinity of Sin: Pandora vol. 2 issues #10-14;
+        end split
+            :Trinity of Sin vol. 1;
+    end split
+}
+
+start
+
+package Darkseid War era {
+    :Justice League #40-50, Darkseid War one-shotes;
+    :DC Universe: Rebirth #1;
+}
+
+end
+@enduml
