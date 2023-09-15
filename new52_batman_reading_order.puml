@@ -1,0 +1,145 @@
+@startuml
+    start
+    
+    package Court of Owls era {
+        split
+            :Batman Omnibus vol. 1 issues #1-7;
+        split again
+            :Nightwing Omnibus issues #1-7;
+        split again
+            :Penguin: Pain and Prejudice;
+            :Detective Comics vol. 1;
+            :Detective Comics vol. 2 issue #8;
+        split again
+            :Batman and Robin Omnibus issues #20-22 (vol. 1), 1-8, 0 (vol. 2);
+        split again
+            :Batgirl Omnibus issues #1-8;
+        split again
+            :Batman: The Dark Knight vol. 1 issues #1-8;
+        split again
+            :Batwing vol. 1;
+            :Batwing vol. 2 issues #7-8;
+        end split
+
+        :Batman: Night of the Owls;
+        :Batman Omnibus vol. 1 issues #10-12;
+        
+        split
+            :Talon;
+        split again
+            :Batman: The Dark Knight vol. 2;
+            :Batman: The Dark Knight vol. 3;
+            :Batman: The Dark Knight vol. 4; 
+        split again
+            :Batwing vol. 2 issues #10-12, 0;
+            :Batwing vol. 3;
+            :Batwing vol. 4;
+            :Batwing vol. 5;
+        end split
+    }
+
+    start
+
+    package Death of the Family era {
+        split
+            :Batman Omnibus vol.1 issues #13-16;
+        split again
+            :Nightwing Omnibus issues #10-14, 0;
+        split again
+            :Detective Comics vol. 2 issues #10-12, 0, Annual 1;
+            :Detective Comics vol. 3 issues #13-15;
+        split again
+            :Batman and Robin Omnibus issues #10-14, Annual 1;
+        split again
+            :Batgirl Omnibus issues #10-13, 0;
+        end split
+
+        :Joker: Death of the Family;
+        :Batman Incorporated (vol. 2) issues #1-13, 0, other stories;
+        :Batman and Robin Omnibus issues #18-40, 23.1, Annual 2-3, other stories;
+    }
+
+    start
+
+    package Forever Evil era {
+        split
+            :Batman Omnibus vol. 1 issues #18-33, #23.2, Annual 2;
+        split again
+            :Nightwing Omnibus issues #17-30, Annual 1, other stories;
+        split again
+            :Detective Comics vol. 3 issue #18;
+            :Detective Comics vol. 4;
+            :Detective Comics vol. 5;
+        split again
+            :Batgirl Omnibus issues #18-34, Annual 1-2, other stories;
+        end split
+    
+        :Forever Evil;
+        note right: see New 52 Justice League Reading Order
+    }
+
+    start
+
+    package Batman: Endgame era {
+        :Batman Eternal vol. 1;
+        :Batman Eternal vol. 2;
+        :Batman Eternal vol. 3;
+
+        split
+            :Batman Omnibus vol. 2 issue #34, Future's End, other stories;
+        split again
+            :Arkham Manor;
+        split again
+            :Detective Comics vol. 6;
+            :Detective Comics vol. 7 issues #35-40, Future's End;
+        split again
+            :Batgirl of Burnside Omnibus issues #35-40, other stories;
+        split again
+            :Gotham Academy vol. 1;
+        end split
+
+        :The Joker: Endgame;
+
+        split
+            :Batman Omnibus vol. 2 issues #41-52, Annual #3, other stories;
+        split again
+            :Batgirl of Burnside Omnibus issues #41-52, Annual #3, other stories;
+        end split
+    }
+
+    start
+
+    package Robin War era {
+        split
+            :Grayson Omnibus issues #1-12, Annual #1-2, other stories;
+        split again
+            :Detective Comics vol. 8 issues #41-46;
+        split again
+            :Gotham Academy vol. 2;
+        split again
+            :Robin: Son of Batman vol. 1;
+        split again
+            :We Are Robin vol. 1;
+        end split
+
+        :Robin War;
+
+        split
+            :Grayson Omnibus issues #13-14, 16-20, Annual #3, Nightwing: Rebirth;
+        split again
+            :Detective Comics vol. 9;
+        split again
+            :Robin: Son of Batman vol. 2 issues #8-13;
+        split again
+            :We Are Robin vol. 2 issues #8-13;
+        split again
+            :Gotham Academy vol. 3 issues #14-18, Annual #1;
+            :Gotham Academy: Second Semester vol. 1;
+            :Gotham Academy: Second Semester vol. 2;
+        end split
+
+        :Batman and Robin Eternal vol. 1;
+        :Batman and Robin Eternal vol. 2;
+    }
+
+@enduml
