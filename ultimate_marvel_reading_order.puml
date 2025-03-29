@@ -1,0 +1,70 @@
+@startuml
+
+    start
+
+    :Ultimate Invasion #1-4;
+    :Ultimate Universe #1;
+
+    :Ultimate Spider-Man #1;
+
+    split
+        :Ultimate Spider-Man #2;
+    split again
+        :Ultimate Black Panther #1;
+    end split
+
+    split
+        :Utlimate Spider-Man #3-4;
+    split again
+        :Ultimate Black Panther #2-3;
+    split again
+        :Ultimate X-Men #1-2;
+    end split
+
+    split
+        :Ultimate Spider-Man #5;
+    split again
+        :Ultimate Black Panther #4;
+    split again
+        :Utlimate X-Men #3;
+    split again
+        :Free Comic Book Day 2024: Ultimate Universe/Spider-Man;
+    end split
+
+    split
+        :Ultimate Spider-Man #6-11;
+    split again
+        :Ultimate Black Panther #5-10;
+    split again
+        :Ultimate X-Men #4-9;
+    split again
+        :Ultimates #1-6;
+    end split
+
+    split
+        :Ultimate Spider-Man #12;
+    split again
+        :Ultimate Black Panther #11;
+    split again
+        :Ultimate X-Men #10;
+    split again
+        :Ultimates #7;
+    split again
+        :Ultimate Universe: One Year In;
+    end split
+
+    split
+        :Ultimate Spider-Man #13-;
+    split again
+        :Ultimate Black Panther #12-;
+    split again
+        :Ultimate X-Men #11-;
+    split again
+        :Ultimates #8-;
+    split again
+        :Ultimate Wolverine #1-;
+    end split
+
+    end
+
+@enduml

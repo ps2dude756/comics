@@ -1,0 +1,45 @@
+@startuml
+    start
+
+    :DC All In Special;
+
+    split
+        :Absolute Batman #1;
+    split again
+        :Absolute Wonder Woman #1;
+    end split
+
+    split
+        :Absolute Batman #2;
+    split again
+        :Absolute Wonder Woman #2;
+    split again
+        :Absolute Superman #1;
+    end split
+
+    split
+        :Aboslute Batman #3-5;
+    split again
+        :Absolute Wonder Woman #3-5;
+    split again
+        :Absolute Superman #2-4;
+    split again
+        :The New Gods #1-3;
+    end split
+
+    split
+        :Absolute Batman #6-;
+    split again
+        :Absolute Wonder Woman #6-;
+    split again
+        :Absolute Superman #5-;
+    split again
+        :The New Gods #4-;
+    split again
+        :Absolute Martian Manhunter #1-;
+    split again
+        :Absolut Flash #1-;
+    end split
+
+    end
+@enduml
